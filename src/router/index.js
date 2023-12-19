@@ -19,6 +19,11 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+  {
+    path: "/alco-calculator",
+    name: "alco-calculator",
+    component: () => import("../views/AlcoCalculator.vue"),
+  },
 ];
 
 const router = new VueRouter({
