@@ -22,7 +22,7 @@ const routes = [
   {
     path: "/alco-calculator",
     name: "alco-calculator",
-    component: () => import("../views/AlcoCalculator.vue"),
+    component: () => import("../views/AlcoCalculatorView.vue"),
   },
 ];
 

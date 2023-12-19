@@ -15,7 +15,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
 }
 
 nav {
